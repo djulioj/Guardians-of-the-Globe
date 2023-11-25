@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2l7nMQuaZ4Tzy8/yK7b4ydwm6lNHBxhAX7aXnd5E/rKd51I84y57FppMhGw7Vt/AHy+HXvJm1WcFwZL4ARr/XA==",
+  "dgSpecHash": "cFfqh9eJnBu60YUmsKTdh0P7KusXkcwebC6VhyxJYyaGg53qmWIrNY09UU/nGt0XmDpxikxbd132e2SAaJ2b6A==",
   "success": true,
-  "projectFilePath": "D:\\9_semestre\\Sophos\\Proyecto\\Reto_Sophos\\Reto_Sophos\\Reto_Sophos.csproj",
+  "projectFilePath": "D:\\9_semestre\\Sophos\\Proyecto\\RetoSophos\\Reto_Sophos\\Reto_Sophos\\Reto_Sophos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Santiago\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Santiago\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
