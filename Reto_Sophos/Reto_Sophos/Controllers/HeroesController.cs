@@ -121,8 +121,12 @@ namespace Reto_Sophos.Controllers
         public async Task<ActionResult<IEnumerable<HeroeDto>>> GetHeroesAdolescentes()
         {
             var heroesAdolescentes = await _context.Heroes
-                                                   .Where(h => h.Edad < 18)
-                                                   .ToListAsync();
+                                                    .Include(h => h.Habilidads)
+                                                    .Include(h => h.Debilidads)
+                                                    .Include(h => h.Patrocinadors)
+                                                    .Include(h => h.Relacions)
+                                                    .Where(h => h.Edad < 18)
+                                                    .ToListAsync();
 
             var heroesDto = heroesAdolescentes.Select(heroe => new HeroeDto
             {
@@ -152,7 +156,11 @@ namespace Reto_Sophos.Controllers
         [HttpGet("mayoresDeEdad")]
         public async Task<ActionResult<IEnumerable<HeroeDto>>> GetHeroesMayoresDeEdad()
         {
-            var heroesMayoresDeEdad = await _context.Heroes
+            var heroesMayoresDeEdad =await _context.Heroes
+                                                    .Include(h => h.Habilidads)
+                                                    .Include(h => h.Debilidads)
+                                                    .Include(h => h.Patrocinadors)
+                                                    .Include(h => h.Relacions)
                                                     .Where(h => h.Edad >= 18)
                                                     .ToListAsync();
 
