@@ -8,21 +8,21 @@ The Guardians of the Globe son un equipo de personas extraordinarias con superpo
 
 La aplicación web permite:
 
-• Conocer la información básica de los héroes (Nombre, edad, etc), habilidades, debilidades y principales relaciones personales.
+- Conocer la información básica de los héroes (Nombre, edad, etc), habilidades, debilidades y principales relaciones personales.
 
-• Organizar y guardar información básica de los villanos (Nombre, edad, etc), habilidades, origen y poder.
+- Organizar y guardar información básica de los villanos (Nombre, edad, etc), habilidades, origen y poder.
 
-• Manejar la agenda de los superhéroes, tener en cuenta que algunos son adolescentes y deben asistir a la escuela para cumplir con sus labores y también sus reuniones familiares.
+- Manejar la agenda de los superhéroes, tener en cuenta que algunos son adolescentes y deben asistir a la escuela para cumplir con sus labores y también sus reuniones familiares.
 
-• Organizar una lista de patrocinadores de cada héroe, el monto y lo más importante el origen del dinero para revisar si se puede confiar.
+- Organizar una lista de patrocinadores de cada héroe, el monto y lo más importante el origen del dinero para revisar si se puede confiar.
 
-• Finalmente se quiere conocer las luchas que han tenido los integrantes The Guardians y Mark, así como el resultado y contra que villano.
+- Finalmente se quiere conocer las luchas que han tenido los integrantes The Guardians y Mark, así como el resultado y contra que villano.
 
-• Consultar con que villano ha peleado más veces un héroe seleccionado con la información relacionada a las peleas.
+- Consultar con que villano ha peleado más veces un héroe seleccionado con la información relacionada a las peleas.
 
-• Poder consultar los 3 héroes con mayor número de victorias.
+- Poder consultar los 3 héroes con mayor número de victorias.
 
-• Consultar listado de héroes por nombre, habilidades y principales relaciones personales.
+- Consultar listado de héroes por nombre, habilidades y principales relaciones personales.
 
 ## Base de Datos
 
@@ -34,3 +34,12 @@ La aplicación web permite:
 
 - [.NET Core SDK](https://dotnet.microsoft.com/download)
 - [Visual Studio](https://visualstudio.microsoft.com/)
+
+
+## Dependencias
+
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.EntityFrameworkCore.Tools
+- Microsoft.VisualStudio.Web.CodeGeneration.Design
+- Microsoft.AspNetCore.Mvc.NewtonsoftJson
+
