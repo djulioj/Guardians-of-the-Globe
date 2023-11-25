@@ -16,11 +16,11 @@ La aplicación web permite:
 
 - Organizar una lista de patrocinadores de cada héroe, el monto y lo más importante el origen del dinero para revisar si se puede confiar.
 
-- Finalmente se quiere conocer las luchas que han tenido los integrantes The Guardians y Mark, así como el resultado y contra que villano.
+- Conocer las luchas que han tenido los integrantes The Guardians y Mark, así como el resultado y contra que villano.
 
 - Consultar con que villano ha peleado más veces un héroe seleccionado con la información relacionada a las peleas.
 
-- Poder consultar los 3 héroes con mayor número de victorias.
+- Consultar los 3 héroes con mayor número de victorias.
 
 - Consultar listado de héroes por nombre, habilidades y principales relaciones personales.
 
