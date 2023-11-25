@@ -30,6 +30,10 @@ La aplicación web permite:
 ![Diagrama en blanco](https://github.com/djulioj/Guardians-of-the-Globe/assets/61607858/90690b68-d4e0-4323-8434-3da2d624135e)
 
 
+## UML
+
+![mermaid-diagram-2023-11-24-220421](https://github.com/djulioj/Guardians-of-the-Globe/assets/61607858/18b01ed1-5743-4ad5-9e09-563ca744c156)
+
 ## Requisitos del Sistema
 
 - [.NET Core SDK](https://dotnet.microsoft.com/download)
