@@ -21,7 +21,7 @@ public partial class Patrocinador
     public string? Origen { get; set; }
 
     [Column(TypeName = "decimal(38, 2)")]
-    public decimal? Monto { get; set; }
+    public decimal Monto { get; set; }
 
     [ForeignKey("PatrocinadorId")]
     [InverseProperty("Patrocinadors")]
