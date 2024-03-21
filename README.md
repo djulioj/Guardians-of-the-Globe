@@ -1,4 +1,4 @@
-# The Guardians of the Globe
+# The Guardians of the Globe.
 
 ## Descripción del Proyecto
 
